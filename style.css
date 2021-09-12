@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(17, 166, 91);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  line-height: 25px;
+}
+
+.heading {
+  background-color: tomato;
+  border-radius: 10px;
+  
+}
+
+h3 {
+  color: white;
+  margin: 10px 0 20px; 
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+}
+
+#textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.tag {
+  background-color: tomato;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 10px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color: rgba(233, 80, 14, 0.557);
+}
